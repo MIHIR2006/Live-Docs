@@ -65,4 +65,4 @@ If you're getting started and need assistance or face any bugs, join our active 
 and many more, including code architecture and reusability 
 
 ## ➤ License
-Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/MIHIR2006/Live-Docs/blob/main/LICENSE) for more information.
