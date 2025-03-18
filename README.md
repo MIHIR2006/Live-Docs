@@ -46,25 +46,37 @@ If you're getting started and need assistance or face any bugs, join our active 
 
 ## <a name="features">🔋 Features</a>
 
-👉 **Authentication**: User authentication using GitHub through NextAuth, ensuring secure sign-in/out and session management.
+➤  **Authentication**: User authentication using GitHub through NextAuth, ensuring secure sign-in/out and session management.
 
-👉 **Collaborative Text Editor**: Multiple users can edit the same document simultaneously with real-time updates.
+➤  **Collaborative Text Editor**: Multiple users can edit the same document simultaneously with real-time updates.
 
-👉 **Documents Management**
+➤  **Documents Management**
    - **Create Documents**: Users can create new documents, which are automatically saved and listed.
    - **Delete Documents**: Users can delete documents they own.
    - **Share Documents**: Users can share documents via email or link with view/edit permissions.
    - **List Documents**: Display all documents owned or shared with the user, with search and sorting functionalities.
 
-👉 **Comments**: Users can add inline and general comments, with threading for discussions.
+➤  **Comments**: Users can add inline and general comments, with threading for discussions.
 
-👉 **Active Collaborators on Text Editor**: Show active collaborators with real-time presence indicators.
+➤  **Active Collaborators on Text Editor**: Show active collaborators with real-time presence indicators.
 
-👉 **Notifications**: Notify users of document shares, new comments, and collaborator activities.
+➤  **Notifications**: Notify users of document shares, new comments, and collaborator activities.
 
-👉 **Responsive**: The application is responsive across all devices.
+➤  **Responsive**: The application is responsive across all devices.
 
 and many more, including code architecture and reusability 
+
+## 🔹 Create Docs
+
+![Create Docs](https://github.com/MIHIR2006/Live-Docs/blob/main/Make%20Docs.png)
+
+## 🔹Share Docs 
+![Share Docs](https://github.com/MIHIR2006/Live-Docs/blob/main/Share%20Docs.png)
+
+## 🔹real-time Document Sharing 
+
+![Share Gif](https://github.com/MIHIR2006/Live-Docs/blob/main/Live%20Sharing.gif)
+
 
 ## ➤ License
 Distributed under the MIT License. See [LICENSE](https://github.com/MIHIR2006/Live-Docs/blob/main/LICENSE) for more information.
