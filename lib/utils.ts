@@ -47,7 +47,7 @@ export const dateConverter = (timestamp: string): string => {
 
 // Function to generate a random color in hex format, excluding specified colors
 export function getRandomColor() {
-  const avoidColors = ['#000000', '#FFFFFF', '#8B4513']; // Black, White, Brown in hex format
+  const avoidColors = ['#0A0A0A', '#FFFFFF', '#8B4513']; // Black, White, Brown in hex format
 
   let randomColor;
   do {
