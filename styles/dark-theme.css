@@ -57,7 +57,7 @@ body {
 }
 
 .editor-inner {
-  background: #0b1527;
+  background: #202326;
   position: relative;
 }
 
@@ -319,7 +319,7 @@ pre::-webkit-scrollbar-thumb {
 .toolbar {
   display: flex;
   margin-bottom: 1px;
-  background: #09111f;
+  background: #000000;
   padding: 4px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -360,7 +360,7 @@ pre::-webkit-scrollbar-thumb {
 }
 
 .toolbar button.toolbar-item.active {
-  background-color: #0f1c34;
+  background-color: #202326;
 }
 
 .toolbar button.toolbar-item.active i {
@@ -368,12 +368,12 @@ pre::-webkit-scrollbar-thumb {
 }
 
 .toolbar .toolbar-item:hover:not([disabled]) {
-  background-color: #0f1c34;
+  background-color: #202326;
 }
 
 .toolbar .divider {
   width: 1px;
-  background-color: #0f1c34;
+  background-color: #202326;
   margin: 0 4px;
 }
 

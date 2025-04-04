@@ -10,7 +10,7 @@
 /* ========================================== TAILWIND STYLES */
 @layer base {
   :root {
-    background: #09111f;
+    background: #000000;
     color: #fff;
     margin: 0;
   }
@@ -180,11 +180,15 @@
   height: fit-content !important;
 }
 
+.cl-cardBox {
+  border: 0.1px solid white;
+}
+
 .cl-cardBox,
 .cl-signIn-start,
 .cl-signUp-start,
 .cl-footer {
-  background: #060d18;
+  background: #202326;
   box-shadow: none;
   padding: 20px;
 }
@@ -206,7 +210,7 @@
 
 /* ======================== Liveblocks Override */
 .lb-root {
-  --lb-accent-subtle: #0b1527;
+  --lb-accent-subtle: #202326;
   --lb-radius: 0px;
   --lb-dynamic-background: #1b2840;
 }
@@ -215,7 +219,7 @@
 .lb-thread-comments,
 .lb-composer,
 .lb-comment-reaction {
-  background-color: #0f1c34;
+  background-color: #202326;
   color: #fff;
 }
 
@@ -269,7 +273,7 @@
 }
 
 .lb-comment-content {
-  background: #0b1527;
+  background: #202326;
   margin-top: 16px;
   padding: 12px;
   border-radius: 4px;
@@ -303,5 +307,5 @@
 }
 
 .lb-elevation {
-  background: #0f1c34;
+  background: #202326;
 }
