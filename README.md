@@ -1,8 +1,6 @@
-<div align="center">
-  <br />
-      <img src="https://github.com/user-attachments/assets/eaaeb1f0-22da-46be-9e29-9bef70e0039d" alt="Project Banner">
-  <br />
+# LiveDocs
 
+<!---
   <div>
     <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=61DAFB" alt="next.js" />
     <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
@@ -10,73 +8,117 @@
   </div>
 
   <h3 align="center">A Collaborative LiveDocs</h3>
+  --->
 
-   
-</div>
+## 📋 Table of Contents
 
-## 📋 <a name="table">Table of Contents</a>
+1. 🤖 [Introduction](#introduction)  
+2. ⚙️ [Tech Stack](#tech-stack)  
+3. 🔋 [Features](#features)  
+4. 🖼️ [Preview](#preview)  
+5. 🤝 [Contributions](#contributions)  
 
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-<!--
-4. 🤸 [Quick Start](#quick-start)
-5. 🕸️ [Snippets (Code to Copy)](#snippets)
-6. 🔗 [Assets](#links)
-7. 🚀 [More](#more)
--->
-
-
+<!-- 6. ➤ [License](#license)   -->
 
 ## <a name="introduction">🤖 Introduction</a>
 
-Built with Next.js to handle the user interface, Liveblocks for real-time features and styled with TailwindCSS, LiveDocs is a clone of Goole Docs. The primary goal is to demonstrate the developer's skills in realtime enviroment that creates a lasting impact.
+Built with **Next.js** to handle the user interface, **Liveblocks** for real-time features, and styled with **TailwindCSS**, **LiveDocs** is a collaborative, real-time document editor, similar to Google Docs. The primary goal is to showcase the developer's ability to work in a real-time environment while creating a useful and engaging application.
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **34k+** members. It's a place where people help each other out.
-
+If you're just getting started or encounter any bugs, join our active **Discord** community with over **34k+** members, where fellow developers can assist you!
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
-- Next.js
-- TypeScript
-- Liveblocks
-- Lexical Editor
-- ShadCN
-- Tailwind CSS
+- **Next.js**
+- **TypeScript**
+- **Liveblocks**
+- **Lexical Editor**
+- **ShadCN**
+- **Tailwind CSS**
 
 ## <a name="features">🔋 Features</a>
 
-➤  **Authentication**: User authentication using GitHub through NextAuth, ensuring secure sign-in/out and session management.
+➤ **Authentication**: User authentication via GitHub using **NextAuth** for secure sign-in, sign-out, and session management.
 
-➤  **Collaborative Text Editor**: Multiple users can edit the same document simultaneously with real-time updates.
+➤ **Collaborative Text Editor**: Multiple users can edit the same document simultaneously, with live updates.
 
-➤  **Documents Management**
-   - **Create Documents**: Users can create new documents, which are automatically saved and listed.
+➤ **Document Management**:
+   - **Create Documents**: Users can create and manage documents, which are automatically saved and listed.
    - **Delete Documents**: Users can delete documents they own.
-   - **Share Documents**: Users can share documents via email or link with view/edit permissions.
-   - **List Documents**: Display all documents owned or shared with the user, with search and sorting functionalities.
+   - **Share Documents**: Documents can be shared via email or link with view/edit permissions.
+   - **List Documents**: View all documents owned or shared with the user, with sorting and searching options.
 
-➤  **Comments**: Users can add inline and general comments, with threading for discussions.
+➤ **Comments**: Inline and general comments are supported, with threading for discussions.
 
-➤  **Active Collaborators on Text Editor**: Show active collaborators with real-time presence indicators.
+➤ **Active Collaborators**: Real-time updates show active collaborators within the text editor.
 
-➤  **Notifications**: Notify users of document shares, new comments, and collaborator activities.
+➤ **Notifications**: Receive notifications about document shares, comments, and collaborator activities.
 
-➤  **Responsive**: The application is responsive across all devices.
+➤ **Responsive**: Fully responsive, ensuring smooth usage across all devices.
 
-and many more, including code architecture and reusability 
+➤ And much more, including optimized code architecture and reusability.
 
-## 🔹 Create Docs
+## <a name="preview">🖼️ Preview</a>
 
+Here are some previews of the application in action:
+
+### Create Docs
 ![Create Docs](https://github.com/MIHIR2006/Live-Docs/blob/main/Make%20Docs.png)
 
-## 🔹Share Docs 
+### Share Docs
 ![Share Docs](https://github.com/MIHIR2006/Live-Docs/blob/main/Share%20Docs.png)
 
-## 🔹real-time Document Sharing 
+### Real-Time Document Sharing
+![Real-Time Sharing](https://github.com/MIHIR2006/Live-Docs/blob/main/Live%20Sharing.gif)
 
-![Share Gif](https://github.com/MIHIR2006/Live-Docs/blob/main/Live%20Sharing.gif)
+## <a name="contributions">🤝 Contributions</a>
 
+We welcome contributions to improve **LiveDocs**! Whether it's fixing a bug, adding a new feature, or improving documentation, your input is highly valued.
 
-## ➤ License
-Distributed under the MIT License. See [LICENSE](https://github.com/MIHIR2006/Live-Docs/blob/main/LICENSE) for more information.
+To contribute, please follow these steps:
+
+1. Clone the repo
+
+```bash
+Git clone https://github.com/MIHIR2006/Live-Docs.git
+```
+
+2. Install dependencies
+
+``` bash
+npm install
+# or
+Bun install
+```
+
+3. Set up environment variables
+
+Create a `.env.local` file in the root directory of the project and add the following environment variables:
+
+### ENV Sample
+
+``` bash
+
+#Clerk
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+
+# Liveblocks
+NEXT_PUBLIC_LIVEBLOCKS_PUBLIC_KEY=
+LIVEBLOCKS_SECRET_KEY=
+
+# Sentry
+SENTRY_AUTH_TOKEN=
+
+```
+
+5. Start the dev server
+```bash
+npm run dev
+# or
+Bun run dev
+```
+
+### Give it ⭐
