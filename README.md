@@ -1,24 +1,16 @@
 # LiveDocs
 
-<!---
-  <div>
-    <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=61DAFB" alt="next.js" />
-    <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
-  </div>
-
-  <h3 align="center">A Collaborative LiveDocs</h3>
-  --->
-
 ## 📋 Table of Contents
 
 1. 🤖 [Introduction](#introduction)  
 2. ⚙️ [Tech Stack](#tech-stack)  
-3. 🔋 [Features](#features)  
+3. ✅ [Features](#features)  
 4. 🖼️ [Preview](#preview)  
 5. 🤝 [Contributions](#contributions)  
 
-<!-- 6. ➤ [License](#license)   -->
+<!--
+6. ➤ [License](#license)  
+-->
 
 ## <a name="introduction">🤖 Introduction</a>
 
@@ -35,7 +27,7 @@ If you're just getting started or encounter any bugs, join our active **Discord*
 - **ShadCN**
 - **Tailwind CSS**
 
-## <a name="features">🔋 Features</a>
+## <a name="features">✅ Features</a>
 
 ➤ **Authentication**: User authentication via GitHub using **NextAuth** for secure sign-in, sign-out, and session management.
 
@@ -62,13 +54,13 @@ If you're just getting started or encounter any bugs, join our active **Discord*
 Here are some previews of the application in action:
 
 ### Create Docs
-![Create Docs](https://github.com/MIHIR2006/Live-Docs/blob/main/Make%20Docs.png)
+![Create Docs](./public/assets/images/Create.png)
 
 ### Share Docs
-![Share Docs](https://github.com/MIHIR2006/Live-Docs/blob/main/Share%20Docs.png)
+![Share Docs](./public/assets/images/Invite.png)
 
 ### Real-Time Document Sharing
-![Real-Time Sharing](https://github.com/MIHIR2006/Live-Docs/blob/main/Live%20Sharing.gif)
+![Real-Time Sharing](./public/assets/images/RTC.png)
 
 ## <a name="contributions">🤝 Contributions</a>
 
