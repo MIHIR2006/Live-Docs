@@ -99,7 +99,7 @@
   }
 
   .document-list-title {
-    @apply max-w-[730px] items-end flex w-full justify-between;
+    @apply max-w-[1100px] items-end flex w-full justify-between;
   }
 
   .document-list-item {
@@ -108,6 +108,23 @@
 
   .document-list-empty {
     @apply flex w-full max-w-[730px] flex-col items-center justify-center gap-5 rounded-lg bg-dark-200 px-10 py-8;
+  }
+
+  .document-grid {
+    @apply grid w-full max-w-[1100px] gap-5;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  @media (min-width: 640px) {
+    .document-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .document-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
   }
 
   .document-title-input {
@@ -162,6 +179,92 @@
 
   .document-ul {
     @apply flex w-full max-w-[730px] flex-col gap-5;
+  }
+
+  /* ======================== Document Card */
+  .document-card {
+    @apply relative list-none rounded-xl overflow-hidden;
+    background: linear-gradient(145deg, #1a1f2e 0%, #141821 50%, #0d1117 100%);
+    border: 1px solid rgba(59, 130, 246, 0.15);
+    transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+  }
+
+  .document-card:hover {
+    border-color: rgba(59, 130, 246, 0.35);
+    box-shadow: 0 8px 40px rgba(59, 130, 246, 0.12), 0 4px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-4px);
+  }
+
+  .document-card-link {
+    @apply flex flex-col gap-0 no-underline;
+  }
+
+  .document-card-header {
+    @apply flex items-center gap-3 px-4 pt-4 pb-3;
+  }
+
+  .document-card-icon {
+    @apply flex items-center justify-center rounded-lg p-2 flex-shrink-0;
+    background: linear-gradient(135deg, #1e3a5f 0%, #1a2744 100%);
+  }
+
+  .document-card-meta {
+    @apply flex flex-col overflow-hidden;
+  }
+
+  .document-card-title {
+    @apply text-base font-semibold text-white truncate;
+    max-width: 100%;
+  }
+
+  .document-card-date {
+    @apply text-xs font-normal;
+    color: #7b8ba5;
+  }
+
+  .document-card-preview {
+    @apply px-4 pb-4 pt-1 flex-1;
+    min-height: 120px;
+    max-height: 160px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .document-card-preview::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background: linear-gradient(to bottom, transparent, #141821);
+    pointer-events: none;
+  }
+
+  .document-card-preview-text {
+    @apply text-sm leading-relaxed;
+    color: #9babc2;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-break: break-word;
+  }
+
+  .document-card-preview-empty {
+    @apply text-sm italic;
+    color: #4a5568;
+  }
+
+  .document-card-actions {
+    @apply absolute top-3 right-3 z-10;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+  }
+
+  .document-card:hover .document-card-actions {
+    opacity: 1;
   }
 
   /* ======================== CollaborativeRoom */
